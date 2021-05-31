@@ -51,11 +51,14 @@ header.home {
 }
 
 .btn1 {
-  background: none;
-  height: 45px;
-  width: 140px;
+  text-decoration: none;
+  color: black;
   font-size: 20px;
+  font-weight: bold;
+  border: 1px black solid;
   border-radius: 50px;
+  padding: 15px 30px;
+  align-items: center;
   cursor: pointer;
   transition: all 500ms;
 }
@@ -65,7 +68,7 @@ header.home {
 }
 
 /*Work section*/
-.work .title {
+#work .title {
   box-sizing: border-box;
   height: 100px;
   background-color: #484844;
@@ -75,10 +78,10 @@ header.home {
   font-size: 25px;
 }
 
-.work .content {
+#work .content {
   text-align: center;
 }
-.work .content h1 {
+#work .content h1 {
   text-decoration: underline;
   padding-top: 20px;
   font-size: 25px;
@@ -86,12 +89,12 @@ header.home {
   padding-bottom: 5px;
 }
 
-.work .content p {
+#work .content p {
   font-size: 20px;
   padding-bottom: 20px;
 }
 
-.work img {
+#work img {
   display: block;
   width: 100%;
   height: 600px;
@@ -99,7 +102,7 @@ header.home {
   transition: all 500ms;
 }
 
-.work img:hover {
+#work img:hover {
   filter: blur(0);
 }
 /*footer*/
